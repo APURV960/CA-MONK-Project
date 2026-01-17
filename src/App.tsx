@@ -1,7 +1,7 @@
 import { useState } from "react";
 import BlogList from "./comp/bloglist";
 import BlogDetail from "./comp/blogdetail";
-import Navbar from "./components/navbar";
+import Navbar from "./comp/navbar";
 
 export default function App() {
   const [selectedBlogId, setSelectedBlogId] = useState<number | null>(null);
